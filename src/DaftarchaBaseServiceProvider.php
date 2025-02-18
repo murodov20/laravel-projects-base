@@ -2,9 +2,9 @@
 
 namespace Daftarcha\DaftarchaBase;
 
+use Daftarcha\DaftarchaBase\Commands\DaftarchaBaseCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Daftarcha\DaftarchaBase\Commands\DaftarchaBaseCommand;
 
 class DaftarchaBaseServiceProvider extends PackageServiceProvider
 {

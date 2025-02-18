@@ -2,9 +2,9 @@
 
 namespace Daftarcha\DaftarchaBase\Tests;
 
+use Daftarcha\DaftarchaBase\DaftarchaBaseServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Daftarcha\DaftarchaBase\DaftarchaBaseServiceProvider;
 
 class TestCase extends Orchestra
 {
